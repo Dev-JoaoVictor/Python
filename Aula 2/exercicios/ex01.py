@@ -1,0 +1,5 @@
+print("Descubra o valor do perímetro e a área do retângulo")
+lado1 = float(input('Digite o valor da base do retângulo: '))
+lado2 = float(input('Digite o valor do altura do retângulo: '))
+print(f'O valor da área é = {lado1*lado2} m2')
+print(f'O valor do perímetro é = {2*(lado1+lado2)} m2 ')

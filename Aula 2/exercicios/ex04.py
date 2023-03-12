@@ -1,0 +1,11 @@
+print('Seja bem vindo a calculadora de Equação do 2°Grau')
+print('A seguir digite os valores dos coeficientes:')
+a  = int(input('Coeficiente a: '))
+b  = int(input('Coeficiente b: '))
+c  = int(input('Coeficiente c: '))
+delta = b**2 - 4*a*c
+print('O valor de Delta é:',delta)
+x1 = (-b - delta**(1/2)) / (2*a)
+x2 = (-b + delta**(1/2)) / (2*a)
+print(f'O valor de x1 é:', x1)
+print(f'O valor de x2 é:', x2)
